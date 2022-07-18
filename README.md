@@ -19,7 +19,7 @@ Lets Start With Telegram:
  └ created: ~ 1/2019 (?) (https://t.me/getidsbot?start=idhelp)
 
 💬 Origin chat
- ├ id: The Channel id
+ ├ 'id': The Channel id
  ├ title: channel name
  ├ username: channel link
  └ type: channel
@@ -31,14 +31,18 @@ Lets Start With Telegram:
  
  7. Take the 💬 Origin chat id Now:
  Go ahead to message.php then Telegram Api:
- $apitoken = your bot token
- chat_id channel id
- text the messages that will send
+ '$apitoken' = your bot token
+ 'chat_id' = channel id
+ 'text' = the messages that will send
  <hr>
  <b>Now The Telegram has finished</b>
- <hr>
+ <hr><br>
  in order to use twitter api you need:
  1. create your twitter developer account 
  2. your app tokens.
  All that steps is showen in this link:
  <a href="https://developer.twitter.com/en/docs/authentication/oauth-1-0a/api-key-and-secret">Here</a>
+<hr>
+After Generate the tokens Go to <b>config.php</p> replace all the showen in the file .
+save it now go to <b>tweet.php</b> 
+you can change the text 'Message 1' !!! $tweet is the message you enter it in the input 
